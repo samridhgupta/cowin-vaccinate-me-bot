@@ -1,0 +1,30 @@
+{
+    "auto_book": "yes-please",
+    "beneficiary_dtls": [
+        {
+            "age": 30,
+            "bref_id": "43559275444190",
+            "name": "Samridh Gupta",
+            "status": "Not Vaccinated",
+            "vaccine": ""
+        }
+    ],
+    "captcha_automation": "y",
+    "captcha_automation_api_key": "1e6802e913089e56e8d57c4533dc03d7",
+    "fee_type": [
+        "Free",
+        "Paid"
+    ],
+    "location_dtls": [
+        {
+            "alert_freq": 9680,
+            "district_id": 664,
+            "district_name": "Kanpur Nagar"
+        }
+    ],
+    "minimum_slots": 1,
+    "refresh_freq": 15,
+    "search_option": 2,
+    "start_date": 2,
+    "vaccine_type": null
+}

@@ -1,0 +1,9 @@
+requests
+tabulate
+inputimeout
+svglib==1.0.1
+reportlab
+pyinstaller
+pysimplegui
+tk
+anticaptchaofficial
