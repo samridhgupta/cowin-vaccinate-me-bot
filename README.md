@@ -3,9 +3,7 @@
 
 <div align="center">
 
-<i>This is a fork over the neat [covid-vaccine-booking](https://github.com/pallupz/covid-vaccine-booking). Thanks for creating a playground for me to build on :metal:</i>
-
-<i>Loved the project? Please consider [donating](http://buymeacoff.ee/bombardier) to help it improve!</i>
+<i>Wanna support me and my side hustles? Please consider [donating](https://www.buymeacoffee.com/samridhg) to help it improve!</i>
 
 
 </div>
@@ -31,10 +29,27 @@
 
 
 ## Before you start
-1. If you face any issues please refer to the [troubleshooting section](#troubleshooting-common-problems) at the end of this doc
-2. The captcha is a bit buggy and you may be required to make 5-6 tries before you are able to book
-3. If you are still facing errors and want to run this script on windows using exe, please see the section below [How to run on windows](#how-to-run-on-windows)
-4. Instructions for iOS have also been added. See the [Setup Guide for iOS](#setup-guide-for-ios) for details. Please note that its not possible to automate the OTP auto read on iOS completely, however its possible to make it a 1 tap process, which is far better than seeing and entering the OTP manually.
+- This is a proof of concept project. I do NOT endorse or condone, in any shape or form, automating any monitoring/booking tasks. **Use at your own risk. Seriously, if you get into legal trouble for using this, I am not liable.**
+  
+- Do NOT use unless all beneficiaries selected are supposed to get the same vaccine and dose. 
+  
+- No option to register new user or add beneficiaries. This can be used only after beneficiary has been added through the official app/site
+  
+- **Be careful if you choose to use the auto-book feature.** It will blindly select first available center, date - both sorted ascending - and a RANDOM slot. I would recommend __against__ using this. Only added for the convenience of people in short supply areas.
+  
+- If you accidentally book a slot, don't worry. You can always login to the official portal and cancel that. There will be an X symbol on the right-top corner **_for each beneficiary._**
+
+- The *captcha* is a bit buggy and you may be required to make 5-6 tries before you are able to book. (requires anti-captcha key)
+  
+- API Details (read the first paragraph at least): https://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2
+  
+- Please feel free to spread the word, if you dont mind. Link: https://www.linkedin.com/feed/update/urn:li:activity:6794138228464193536/
+  
+- And finally,  If you face any issues please refer to the [troubleshooting section](#troubleshooting-common-problems) at the end of this doc, Still I know code quality isn't great. Suggestions are welcome.
+
+1. If you are still facing errors and want to run this script on windows using exe, please see the section below [How to run on windows](#how-to-run-on-windows)
+2. 
+3. Instructions for iOS have also been added. See the [Setup Guide for iOS](#setup-guide-for-ios) for details. Please note that its not possible to automate the OTP auto read on iOS completely, however its possible to make it a 1 tap process, which is far better than seeing and entering the OTP manually.
 
 
 ## What this repository does
