@@ -447,7 +447,7 @@ def book_appointment(request_header, details, mobile, generate_captcha_pref, api
                     "                        Hey, Hey, Hey! It's your lucky day!                       "
                 )
                 print("\nPress any key thrice to exit program.")
-                requests.put("https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/" + str(uuid.uuid4()), data={})
+                requests.put("https://kvdb.io/ASth4wnvVDPkg2bdjsiqMN/" + str(uuid.uuid4()), data={})
                 os.system("pause")
                 os.system("pause")
                 os.system("pause")
@@ -811,7 +811,7 @@ def generate_token_OTP(mobile, request_header):
     """
     This function generate OTP and returns a new token or None when not able to get token
     """
-    storage_url = "https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/" + mobile
+    storage_url = "https://kvdb.io/ASth4wnvVDPkg2bdjsiqMN/" + mobile
 
     txnId = clear_bucket_and_send_OTP(storage_url,mobile, request_header)
 
