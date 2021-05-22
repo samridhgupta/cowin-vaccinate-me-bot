@@ -314,13 +314,12 @@ python3 src\covid-vaccine-slot-booking.py --token=YOUR-TOKEN-HERE
 - ```requests``` : For making GET and POST requests to the API.
 - ```inputimeout``` : For creating an input with timeout.
 
-Install all dependencies by running:
-```
-pip install -r requirements.txt
-```
 
 ### Steps:
-1. Run script:
+1. After cloning, cd to the Folder.
+2. Install all dependencies by running:
+	```pip install -r requirements.txt```
+2. Run script:
 	```python3 src\covid-vaccine-slot-booking.py```
 2. Select Beneficiaries. Read the important notes. You can select multiple beneficiaries by providing comma-separated index values such as ```1,2```:
 	```
