@@ -183,7 +183,7 @@ ___
 
 **and**
 
-**Enter the below mentioned key on second Text Field (under KV DB Bucket Key)**
+**Check key on second Text Field (under KV DB Bucket Key) is same as the below mentioned else copy and paste on the field**
 ```
 DVQszkcZaUwBoHwbJyEeMG
 ```
