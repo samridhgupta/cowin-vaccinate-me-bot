@@ -1,10 +1,10 @@
-
 <h1 align="center"> Automated CoWin Slot Booking Bot</h1>
 
 <div align="center">
 
-<i>Wanna support me and my side hustles? Please consider [donating](https://www.buymeacoffee.com/samridhg) to help it improve!</i>
+<i>This is a fork over the neat [covid-vaccine-booking](https://github.com/pallupz/covid-vaccine-booking). Thanks for creating a playground for me to build on :metal:</i>
 
+<i>Loved the project? Please consider [donating](http://buymeacoff.ee/samridhg) to help it improve!</i>
 
 </div>
 
@@ -43,19 +43,11 @@
   
 - API Details (read the first paragraph at least): https://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2
   
-- Please feel free to spread the word, if you dont mind. Link: https://www.linkedin.com/feed/update/urn:li:activity:6794138228464193536/
-  
-- And finally,  If you face any issues please refer to the [troubleshooting section](#troubleshooting-common-problems) at the end of this doc, Still I know code quality isn't great. Suggestions are welcome.
-
-1. If you are still facing errors and want to run this script on windows using exe, please see the section below [How to run on windows](#how-to-run-on-windows)
-2. 
-3. Instructions for iOS have also been added. See the [Setup Guide for iOS](#setup-guide-for-ios) for details. Please note that its not possible to automate the OTP auto read on iOS completely, however its possible to make it a 1 tap process, which is far better than seeing and entering the OTP manually.
-
+- If you face any issues please refer to the [troubleshooting section](#troubleshooting-common-problems) at the end of this doc, Still I know code quality isn't great. Suggestions are welcome.
 
 ## What this repository does
 1. Automates OTP read from the SMS after the token expires.
 2. Randomly chooses one of the available slots instead of waiting for input from the user.
-3. Reduces the polling wait to optimize on the polling frequency (hence the name bombardier)
 ![image](https://user-images.githubusercontent.com/83712877/117467267-290fd200-af71-11eb-8461-d6e253c183d7.png)
 
 #### How it works via IFTTT app on Android
@@ -87,7 +79,8 @@
 3. If this..... click on Android SMS trigger
 4. Select "New SMS received matches search" and use CoWIN as the search key
 5. Then... Choose a service named Webhooks and then select make a web request
-6. Paste the url:  https://kvdb.io/ASth4wnvVDPkg2bdjsiqMN/99XXXXXXXX replace 99XXXXXXXX with your phone number
+6. Paste the url:  https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG
+52/99XXXXXXXX replace 99XXXXXXXX with your phone number
 7. Method is PUT
 8. Content Type PlainText
 9. Body: Add ingredient and select Text
@@ -97,15 +90,16 @@
     1. **Tip**: If your IFTTT is not triggered when your SMS is received: https://www.androidpolice.com/2020/05/30/how-to-prevent-apps-sleeping-in-the-background-on-android/
        Also a premium account is faster
 13. Clone this repository
-14. Go to `src` directory and run the script  `cd src && python covid-vaccine-slot-booking.py`
-15. On Mac I had to do the following too
+14. On Mac I had to do the following too
     ```bash
     brew install python-tk
     brew install SoX
     ```
-18. Run the script, use the steps given below to enter your preferences
-19. Hopefully you get the slot
-20. Stay healthy and stay safe!
+15. Run the script  `cd src && python covid-vaccine-slot-booking.py`
+
+16. Use the steps given below to enter your preferences
+17. Hopefully you get the slot
+18. Stay healthy and stay safe!
 
 
 #### IFTTT steps in screenshots:
@@ -156,7 +150,8 @@
 3. Select the `Message` option
 4. Put `CoWIN` in the Message Contains option & leave everything blank. Tap on Next button
 5. Tap on `Add action` and search for the option `Set Variable`. Give the variable name `text` and input as `Shortcut Input`
-6.     Then add another action and select `URL` and paste the url: https://kvdb.io/ASth4wnvVDPkg2bdjsiqMN/99XXXXXXXX replace 99XXXXXXXX with your phone number
+6.     Then add another action and select `URL` and paste the url: https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG
+52/99XXXXXXXX replace 99XXXXXXXX with your phone number
 7. Then add another action and select `Get Contents of Url`. Click on show more. Change the method to `PUT`. Request Body to `File` and in the file row tap on `Choose Variable` and select `text` which we defined in Step 6.
 8. Click Next and save this automation.
 9. Clone this repository

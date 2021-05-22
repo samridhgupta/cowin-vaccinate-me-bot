@@ -10,3 +10,5 @@ CoWIN OTP Retriever
 ![image](https://user-images.githubusercontent.com/3753228/117948585-e4988380-b32e-11eb-9837-9abdda21c23e.png)
 6. If the OTP is successfully sent to the key value store, you will see the status as shown below.  
 ![image](https://user-images.githubusercontent.com/3753228/117949979-54f3d480-b330-11eb-8568-fec8284e138b.png)
+
+ASth4wnvVDPkg2bdjsiqMN
