@@ -79,8 +79,7 @@
 3. If this..... click on Android SMS trigger
 4. Select "New SMS received matches search" and use CoWIN as the search key
 5. Then... Choose a service named Webhooks and then select make a web request
-6. Paste the url:  https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG
-52/99XXXXXXXX replace 99XXXXXXXX with your phone number
+6. Paste the url:  https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX replace XXXXXXXXXX with your phone number
 7. Method is PUT
 8. Content Type PlainText
 9. Body: Add ingredient and select Text
@@ -103,14 +102,39 @@
 
 
 #### IFTTT steps in screenshots:
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159172-b0c4d780-addd-11eb-90f0-ab8438db4c8e.png)
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159291-c76b2e80-addd-11eb-991a-dc6de4bbb620.png)
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159444-e669c080-addd-11eb-9b4c-448335b1c781.png)
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159516-f8e3fa00-addd-11eb-832d-fcf92238f823.png)
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159663-17e28c00-adde-11eb-9a5f-4faf39430279.png)
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159753-2c268900-adde-11eb-9bb3-4bb54f951683.png)
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159818-38aae180-adde-11eb-96b5-0e779803b4b2.png)
+___
+   
 ![image](https://user-images.githubusercontent.com/83712877/117159863-4496a380-adde-11eb-8874-40cc6f851cf6.png)
+___
+   
+**Now Enter URL : https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX & replace XXXXXXXXXX with your mobile number**
+
+*Copy from below*
+```
+https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/
+```
+
 ![image](https://user-images.githubusercontent.com/83712877/117325821-b5a58c00-aeae-11eb-8156-2ea585a77834.png)
 
 ### Option 2: CoWIN OTP Retriever
@@ -126,20 +150,58 @@
 8. Security tip: Make sure to change back your settings to disallow app installation from unknown sources.
 
 #### CoWIN OTP Retriever steps in screenshots
-1. ![image](https://user-images.githubusercontent.com/3753228/117923351-814c2880-b311-11eb-9008-fbf497271e08.png)
-2. ![image](https://user-images.githubusercontent.com/3753228/117923398-9759e900-b311-11eb-9dec-4e003b772f0e.png)
-3. ![image](https://user-images.githubusercontent.com/3753228/117923447-a771c880-b311-11eb-92f5-b08903f1b20e.png)
-4. ![image](https://user-images.githubusercontent.com/3753228/117923482-b9ec0200-b311-11eb-8210-4c1e1b958d6a.png)
-5. ![image](https://user-images.githubusercontent.com/3753228/117924614-9e81f680-b313-11eb-8583-bffcadf681f3.png)
-6. ![image](https://user-images.githubusercontent.com/3753228/117923509-c40e0080-b311-11eb-9832-805c4676e4a5.png)
-7. ![image](https://user-images.githubusercontent.com/3753228/117923554-d6883a00-b311-11eb-8ae1-8ea36ffaf35b.png)
-8. ![image](https://user-images.githubusercontent.com/3753228/118130348-e17ac180-b41a-11eb-8af9-f9e13d671f07.png)
-9. ![image](https://user-images.githubusercontent.com/3753228/117947493-df870480-b32d-11eb-923d-47efa55f9586.png)
-11. ![image](https://user-images.githubusercontent.com/3753228/117948585-e4988380-b32e-11eb-9837-9abdda21c23e.png)
-12. ![image](https://user-images.githubusercontent.com/3753228/117949247-8ae48900-b32f-11eb-8b77-5d98ed07cfc6.png)
-13. ![image](https://user-images.githubusercontent.com/3753228/117925274-a1311b80-b314-11eb-9f77-ac6d83720de8.png)
-14. ![image](https://user-images.githubusercontent.com/3753228/117925321-b148fb00-b314-11eb-8b0a-7a4c55afae69.png)
-15. ![image](https://user-images.githubusercontent.com/3753228/117925366-c2920780-b314-11eb-8db5-e8f11325fa2e.png)
+![image](https://user-images.githubusercontent.com/3753228/117923351-814c2880-b311-11eb-9008-fbf497271e08.png)
+___
+   
+![image](https://user-images.githubusercontent.com/3753228/117923398-9759e900-b311-11eb-9dec-4e003b772f0e.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117923447-a771c880-b311-11eb-92f5-b08903f1b20e.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117923482-b9ec0200-b311-11eb-8210-4c1e1b958d6a.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117924614-9e81f680-b313-11eb-8583-bffcadf681f3.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117923509-c40e0080-b311-11eb-9832-805c4676e4a5.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117923554-d6883a00-b311-11eb-8ae1-8ea36ffaf35b.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/118130348-e17ac180-b41a-11eb-8af9-f9e13d671f07.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117947493-df870480-b32d-11eb-923d-47efa55f9586.png)
+___   
+
+
+   
+**Now Enter Your Number on first Text Field**
+
+**and**
+
+**Enter the below mentioned key on second Text Field (under KV DB Bucket Key)**
+```
+DVQszkcZaUwBoHwbJyEeMG
+```
+
+![image](https://user-images.githubusercontent.com/3753228/117948585-e4988380-b32e-11eb-9837-9abdda21c23e.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117949247-8ae48900-b32f-11eb-8b77-5d98ed07cfc6.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117925274-a1311b80-b314-11eb-9f77-ac6d83720de8.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117925321-b148fb00-b314-11eb-8b0a-7a4c55afae69.png)
+___   
+
+![image](https://user-images.githubusercontent.com/3753228/117925366-c2920780-b314-11eb-8db5-e8f11325fa2e.png)
+___
 
 ## Setup Guide for iOS
 
@@ -150,8 +212,7 @@
 3. Select the `Message` option
 4. Put `CoWIN` in the Message Contains option & leave everything blank. Tap on Next button
 5. Tap on `Add action` and search for the option `Set Variable`. Give the variable name `text` and input as `Shortcut Input`
-6.     Then add another action and select `URL` and paste the url: https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG
-52/99XXXXXXXX replace 99XXXXXXXX with your phone number
+6.     Then add another action and select `URL` and paste the url: https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX replace XXXXXXXXXX with your phone number
 7. Then add another action and select `Get Contents of Url`. Click on show more. Change the method to `PUT`. Request Body to `File` and in the file row tap on `Choose Variable` and select `text` which we defined in Step 6.
 8. Click Next and save this automation.
 9. Clone this repository
@@ -170,16 +231,44 @@ Go to `src` directory and run the script  `cd src && python covid-vaccine-slot-b
 #### Shortcuts steps in screenshots
 
 ![image1](https://user-images.githubusercontent.com/83958525/117808231-40550500-b27a-11eb-9f58-17c3c9f52dc5.PNG)
+___
+
 ![image2](https://user-images.githubusercontent.com/83958525/117808359-6a0e2c00-b27a-11eb-975b-cd3cbfda68b0.PNG)
+___  
+
 ![image](https://user-images.githubusercontent.com/83958525/117808435-7db99280-b27a-11eb-933d-58a8af95dfaa.PNG)
+___  
+
 ![image](https://user-images.githubusercontent.com/83958525/117808441-80b48300-b27a-11eb-92c4-e9e4eb144bef.PNG)
+___ 
+
 ![image](https://user-images.githubusercontent.com/83958525/117808450-8611cd80-b27a-11eb-9caa-b23a5a3c3509.PNG)
+___ 
+
 ![image](https://user-images.githubusercontent.com/83958525/117808480-8dd17200-b27a-11eb-986e-1405dec40e73.PNG)
+___ 
+
 ![image](https://user-images.githubusercontent.com/83958525/117808695-d1c47700-b27a-11eb-897a-7a4ef7761889.PNG)
+   
+___
+**Now Enter URL : https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX & replace XXXXXXXXXX with your mobile number**
+
+*Copy from below*
+```
+https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/
+```
+
 ![image](https://user-images.githubusercontent.com/83958525/117808764-e7d23780-b27a-11eb-90b4-bb9859d45379.PNG)
+___  
+
 ![image](https://user-images.githubusercontent.com/83958525/117808824-01737f00-b27b-11eb-8937-a473107a3fcd.PNG)
+___ 
+
 ![image](https://user-images.githubusercontent.com/83958525/117809022-40a1d000-b27b-11eb-86bd-31b5e9669887.PNG)
+___  
+
 ![image](https://user-images.githubusercontent.com/83958525/117809074-51524600-b27b-11eb-9b2f-82cab9a92f49.jpeg)
+___
 
 
 **Tips:** 
