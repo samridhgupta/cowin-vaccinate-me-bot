@@ -94,7 +94,7 @@
     brew install python-tk
     brew install SoX
     ```
-15. Run the script  `cd src && python covid-vaccine-slot-booking.py`
+15. Run the script  `cd src && python3 covid-vaccine-slot-booking.py`
 
 16. Use the steps given below to enter your preferences
 17. Hopefully you get the slot
@@ -216,7 +216,7 @@ ___
 7. Then add another action and select `Get Contents of Url`. Click on show more. Change the method to `PUT`. Request Body to `File` and in the file row tap on `Choose Variable` and select `text` which we defined in Step 6.
 8. Click Next and save this automation.
 9. Clone this repository
-Go to `src` directory and run the script  `cd src && python covid-vaccine-slot-booking.py`
+Go to `src` directory and run the script  `cd src && python3 covid-vaccine-slot-booking.py`
 15. On Mac I had to do the following too
      - `brew install python-tk`
      - `brew install SoX`
@@ -298,7 +298,7 @@ OR
 Run the script file as show below:
 
 ```
-python src\covid-vaccine-slot-booking.py
+python3 src\covid-vaccine-slot-booking.py
 ```
 If you're on Linux, install the beep package before running the Python script. To install beep, run:
 ```
@@ -306,7 +306,7 @@ sudo apt-get install beep
 ```
 If you already have a bearer token, you can also use:
 ```
-python src\covid-vaccine-slot-booking.py --token=YOUR-TOKEN-HERE
+python3 src\covid-vaccine-slot-booking.py --token=YOUR-TOKEN-HERE
 ```
 
 ### Third-Party Package Dependency:
@@ -321,7 +321,7 @@ pip install -r requirements.txt
 
 ### Steps:
 1. Run script:
-	```python src\covid-vaccine-slot-booking.py```
+	```python3 src\covid-vaccine-slot-booking.py```
 2. Select Beneficiaries. Read the important notes. You can select multiple beneficiaries by providing comma-separated index values such as ```1,2```:
 	```
 	Enter the registered mobile number: ██████████
