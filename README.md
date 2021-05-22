@@ -292,6 +292,7 @@ This very basic CLI based script can be used to automate covid vaccination slot 
 ### Usage:
 
 For the anyone not familiar with Python and using Windows, using the ```covid-vaccine-slot-booking.exe``` executable file would be the easiest way. It might trigger an anti-virus alert. That's because I used ```pyinstaller``` to package the python code and it needs a bit more effort to avoid such alerts.
+[How to install Python](https://realpython.com/installing-python/)
 
 OR
 
@@ -317,7 +318,8 @@ python3 src\covid-vaccine-slot-booking.py --token=YOUR-TOKEN-HERE
 
 ### Steps:
 1. After cloning, cd to the Folder.
-2. Install all dependencies by running:
+2. Install Python ([How to install Python](https://realpython.com/installing-python/))
+3. Install all dependencies by running:
 	```pip install -r requirements.txt```
 2. Run script:
 	```python3 src\covid-vaccine-slot-booking.py```
