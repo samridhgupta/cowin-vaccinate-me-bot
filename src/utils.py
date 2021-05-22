@@ -978,7 +978,7 @@ def generate_token_OTP(mobile, request_header):
     """
     This function generate OTP and returns a new token or None when not able to get token
     """
-    storage_url = "https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/" + mobile
+    storage_url = "https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/" + mobile
 
     txnId = clear_bucket_and_send_OTP(storage_url, mobile, request_header)
 

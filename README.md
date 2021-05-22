@@ -79,7 +79,7 @@
 3. If this..... click on Android SMS trigger
 4. Select "New SMS received matches search" and use CoWIN as the search key
 5. Then... Choose a service named Webhooks and then select make a web request
-6. Paste the url:  https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX replace XXXXXXXXXX with your phone number
+6. Paste the url:  https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/XXXXXXXXXX replace XXXXXXXXXX with your phone number
 7. Method is PUT
 8. Content Type PlainText
 9. Body: Add ingredient and select Text
@@ -128,11 +128,11 @@ ___
 ![image](https://user-images.githubusercontent.com/83712877/117159863-4496a380-adde-11eb-8874-40cc6f851cf6.png)
 ___
    
-**Now Enter URL : https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX & replace XXXXXXXXXX with your mobile number**
+**Now Enter URL : https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/XXXXXXXXXX & replace XXXXXXXXXX with your mobile number**
 
 *Copy from below*
 ```
-https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/
+https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/
 ```
 
 ![image](https://user-images.githubusercontent.com/83712877/117325821-b5a58c00-aeae-11eb-8156-2ea585a77834.png)
@@ -212,7 +212,7 @@ ___
 3. Select the `Message` option
 4. Put `CoWIN` in the Message Contains option & leave everything blank. Tap on Next button
 5. Tap on `Add action` and search for the option `Set Variable`. Give the variable name `text` and input as `Shortcut Input`
-6.     Then add another action and select `URL` and paste the url: https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX replace XXXXXXXXXX with your phone number
+6.     Then add another action and select `URL` and paste the url: https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/XXXXXXXXXX replace XXXXXXXXXX with your phone number
 7. Then add another action and select `Get Contents of Url`. Click on show more. Change the method to `PUT`. Request Body to `File` and in the file row tap on `Choose Variable` and select `text` which we defined in Step 6.
 8. Click Next and save this automation.
 9. Clone this repository
@@ -251,11 +251,11 @@ ___
 ![image](https://user-images.githubusercontent.com/83958525/117808695-d1c47700-b27a-11eb-897a-7a4ef7761889.PNG)
    
 ___
-**Now Enter URL : https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/XXXXXXXXXX & replace XXXXXXXXXX with your mobile number**
+**Now Enter URL : https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/XXXXXXXXXX & replace XXXXXXXXXX with your mobile number**
 
 *Copy from below*
 ```
-https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG52/
+https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/
 ```
 
 ![image](https://user-images.githubusercontent.com/83958525/117808764-e7d23780-b27a-11eb-90b4-bb9859d45379.PNG)
