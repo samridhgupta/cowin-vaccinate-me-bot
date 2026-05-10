@@ -978,7 +978,7 @@ def generate_token_OTP(mobile, request_header):
     """
     This function generate OTP and returns a new token or None when not able to get token
     """
-    storage_url = "https://kvdb.io/DVQszkcZaUwBoHwbJyEeMG/" + mobile
+    storage_url = "https://kvdb.io/DL6nxEC6kLcLeM2NyrKgoy/" + mobile
 
     txnId = clear_bucket_and_send_OTP(storage_url, mobile, request_header)
 
@@ -1014,7 +1014,7 @@ def generate_token_OTP(mobile, request_header):
     print(f"Validating OTP..")
 
     token = requests.post(
-        url="https://cdn-api.co-vin.in/api/v2/auth/validateMobileOtp",
+        url="https://cdn-api.co-vin.in/api//v2/auth/confirmOTP",
         json=data,
         headers=request_header,
     )
